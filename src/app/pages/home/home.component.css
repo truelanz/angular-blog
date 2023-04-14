@@ -1,0 +1,22 @@
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.container_articles {
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.articles_main {
+    align-content: flex;
+}
+
+.articles_others {
+    align-content: flex;
+}

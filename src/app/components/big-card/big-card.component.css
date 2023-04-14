@@ -1,0 +1,33 @@
+.container_big-card {
+    /* border: solid white; */
+    height: 690px;
+    width: 740px;
+    margin-left: 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.big-card_picture > img {
+    /* Fazer imagens se adequarem automaticamente ao tamanho da border */
+    min-width: 734px;
+    max-width: 734px;
+    max-height: 455px;
+    min-height: 455px;
+}
+
+.big-card_tittle{
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.big-card_tittle > h1 > a {
+    font-size: 30px;
+}
+
+.big-card_description> p > a {
+    color: gray;
+    font-size: 15px;
+}
