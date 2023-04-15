@@ -18,12 +18,12 @@
     min-height: 455px;
 }
 
-.big-card_tittle{
+.big-card_title{
     margin-top: 12px;
     margin-bottom: 10px;
 }
 
-.big-card_tittle > h1 > a {
+.big-card_title > h1 > a {
     font-size: 30px;
 }
 

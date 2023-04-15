@@ -1,18 +1,22 @@
+<!-- div que engloba todo componente -->
 <div class="container_small-card">
+    <!-- div que contém a imagem e o título -->
     <div class="conteiner_content_small-card">
+        <!-- image -->
         <div class="small-card_picture">
-            <img src="https://www.waterfieldtechnologies.com/wp-content/uploads/2019/02/placeholder-image-gray-3x2.png"
+            <img src="{{ photoCover }}"
                 alt="">
         </div>
     
-        <div class="small-card_tittle">
+        <!-- title -->
+        <div class="small-card_title">
             <h1><a href="#">
-                    Título do artigo (Small Cards) | Título do artigo (Small Cards) |
-                    Título do artigo (Small Cards) | Título do artigo (Small Cards)
+                    "{{ cardTitle }}"
                 </a></h1>
         </div>
     </div>
 
+    <!-- <hr> - separator -->
     <div class="small-card_separator">
         <hr>
     </div>

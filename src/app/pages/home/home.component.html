@@ -1,17 +1,36 @@
+<!-- Menu bar -->
 <header>
     <app-menu-bar></app-menu-bar>
 </header>
 
-<app-tittle></app-tittle>
+<!-- Home Page Title -->
+<app-title></app-title>
 
 <div class="container_articles">
+    <!-- Big right card -->
     <div class="articles_main">
-        <app-big-card></app-big-card>
+        <app-big-card
+            photoCover="https://avatars.mds.yandex.net/i?id=b0124e2ff2af83d34644b208471daa7a9fb4787e-9228658-images-thumbs&n=13"
+            cardTitle="Title" cardDescription="Description">
+
+        </app-big-card>
     </div>
 
+    <!-- Small left cards -->
     <div class="articles_others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card
+            photoCover="https://www.waterfieldtechnologies.com/wp-content/uploads/2019/02/placeholder-image-gray-3x2.png"
+            cardTitle="card Title small-card">
+        </app-small-card>
+
+        <app-small-card
+            photoCover="https://www.waterfieldtechnologies.com/wp-content/uploads/2019/02/placeholder-image-gray-3x2.png"
+            cardTitle="card Title small-card">
+        </app-small-card>
+
+        <app-small-card
+            photoCover="https://www.waterfieldtechnologies.com/wp-content/uploads/2019/02/placeholder-image-gray-3x2.png"
+            cardTitle="card Title small-card">
+        </app-small-card>
     </div>
 </div>

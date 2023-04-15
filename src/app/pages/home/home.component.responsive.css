@@ -1,0 +1,26 @@
+@media screen and (max-width: 1416px){
+    header {
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem;
+    }
+    
+    .container_articles {
+        margin-top: 50px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .articles_main {
+        align-content: flex;
+    }
+    
+    .articles_others {
+        align-content: flex;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+    
+}

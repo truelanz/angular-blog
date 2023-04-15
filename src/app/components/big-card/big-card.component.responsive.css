@@ -1,0 +1,35 @@
+@media screen and (max-width:1416px) {
+    .container_big-card {
+        border: solid white;
+        height: 890px;
+        width: 1190px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .big-card_picture > img {
+        margin-left: 120px;
+        /* Fazer imagens se adequarem automaticamente ao tamanho da border */
+        min-width: 934px;
+        max-width: 934px;
+        max-height: 655px;
+        min-height: 655px;
+    }
+
+    .big-card_title{
+        margin-left: 120px;
+        margin-top: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .big-card_title > h1 > a {
+        font-size: 30px;
+    }
+    
+    .big-card_description> p > a {
+        margin-left: 120px;
+        color: gray;
+        font-size: 15px;
+    }
+}

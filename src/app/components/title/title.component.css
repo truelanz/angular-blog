@@ -1,8 +1,8 @@
-.container_tittle {
+.container_title {
     color: white;
 }
 
-.container_tittle > h1 {
+.container_title > h1 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 120px;
@@ -11,7 +11,7 @@
     justify-content: center;
 }
 
-.container_tittle > hr {
+.container_title > hr {
     margin-left: 80px;
     margin-right: 80px;
     margin-top: 5px;
