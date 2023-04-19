@@ -1,6 +1,6 @@
 # Blog
 
-### Base for a blog made with Angular.
+### Base for a blog made with :a:ngular.
 
 _work in progess_
 
