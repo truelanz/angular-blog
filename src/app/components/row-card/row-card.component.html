@@ -2,15 +2,14 @@
     <div class="conteiner_content_small-card">
         <!-- image -->
         <div class="row-card_picture">
-            <img src="https://www.waterfieldtechnologies.com/wp-content/uploads/2019/02/placeholder-image-gray-3x2.png"
+            <img src="{{ photoCover }}"
                 alt="">
         </div>
     
         <!-- title -->
         <div class="row-card_title">
-            <h1><a href="#"> Title and description of the article, Title and description of the article,
-                Title and description of the article, Title and description of the article,
-                Title and description of the article, Title and description of the article
+            <h1><a [routerLink]="['content', Id]">
+                {{ cardTitle }}
             </a></h1>
         </div>
     </div>

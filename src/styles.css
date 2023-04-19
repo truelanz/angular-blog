@@ -11,7 +11,7 @@
 
     /* Redefinindo Scroll para o top sempre que mudar de página */
     scroll-snap-type: y mandatory;
-    scroll-snap-align: start;
+    scroll-snap-align: top;
 }
 
 a {
