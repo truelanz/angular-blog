@@ -1,0 +1,25 @@
+.container_row-card {
+    /* border: solid white; */
+    margin-right: 50px;
+    width: 260px;
+    height: 230px;
+
+}
+
+.row-card_picture > img {
+    /* Fazer imagens se adequarem automaticamente ao tamanho da border */
+    min-width: 255px;
+    max-width: 255px;
+    max-height: 157px;
+    min-height: 157px;
+}
+
+.row-card_title {
+    margin-top: 7px;
+    font-size: 7px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}

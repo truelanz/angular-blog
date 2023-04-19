@@ -1,0 +1,19 @@
+.container_botton-bar {
+    /* border: 1px solid white; */
+    height: 30px;
+    background: #0073B1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    margin-top: 50px;
+}
+
+.container_botton-bar > a {
+    background-color: transparent;
+    margin-right: 80px;
+
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}

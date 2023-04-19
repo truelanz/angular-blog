@@ -1,13 +1,6 @@
 
-header {
-    display: flex;
-    justify-content: center;
-    margin: 1.5rem;
-}
-
 .container_articles {
     margin-top: 50px;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -19,4 +12,25 @@ header {
 
 .articles_others {
     align-content: flex;
+}
+
+/* -- row cards -- */
+.container_row-card {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_row-card {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.content_row-card2 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
 }

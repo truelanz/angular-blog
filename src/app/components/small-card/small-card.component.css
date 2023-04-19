@@ -26,6 +26,12 @@
     margin-right: 80px;
     /* word-break: normal; */
     font-size: 9px;
+    /* Limitando quantidade de linhas do texto */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
 
 .small-card_separator > hr {

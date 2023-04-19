@@ -1,26 +1,30 @@
-@media screen and (max-width:1416px) {
+/* @media screen and (max-width:1416px) {
     .container_big-card {
         border: solid white;
         height: 890px;
-        width: 1190px;
+        width: 1220px;
 
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
-    .big-card_picture > img {
-        margin-left: 120px;
+    .big-card_picture > img { */
         /* Fazer imagens se adequarem automaticamente ao tamanho da border */
-        min-width: 934px;
-        max-width: 934px;
-        max-height: 655px;
-        min-height: 655px;
+      /*   min-width: 834px;
+        max-width: 834px;
+        max-height: 555px;
+        min-height: 555px;
+
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
     .big-card_title{
-        margin-left: 120px;
         margin-top: 12px;
         margin-bottom: 10px;
+        margin-right: 775px;
     }
     
     .big-card_title > h1 > a {
@@ -28,8 +32,8 @@
     }
     
     .big-card_description> p > a {
-        margin-left: 120px;
         color: gray;
         font-size: 15px;
+        margin-right: 760px;
     }
-}
+} */
